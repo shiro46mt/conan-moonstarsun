@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>月と星と太陽の暗号</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>月と星と太陽の暗号メーカー</h1>
+    <div>
+        <textarea id="inputText" placeholder="テキストをひらがなで入力してください"></textarea>
+        <button onclick="convert()">作成</button>
+    </div>
+    <div id="outputCanvasContainer">
+        <canvas id="outputCanvas"></canvas>
+    </div>
+
+    <h2>これは何？</h2>
+    <div>
+        <p>漫画「名探偵コナン」に登場する、月と星と太陽をかたどった暗号を作成するツールです。</p>
+        <p>もとになった事件については<a href="https://websunday.net/episode/11935/">全事件レポート編纂室（小学館）</a>をご参照ください。</p>
+        <p>作成にあたってYaaMaaさんの自作フォントを使用しています。<a href="https://yaamaa-memo.hatenablog.com/entry/2017/02/17/043003">YaaMaaさんのブログ</a>をご参照ください。</p>
+    </div>
+
+    <div>
+        <img id="sampleImage">
+    </div>
+
+    <footer>&copy;2024 SHIRO</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

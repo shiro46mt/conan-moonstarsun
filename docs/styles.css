@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#outputCanvasContainer {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 320px;
+    height: 100px;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    max-width: 320px;
+}
+
+h1 {
+    font-family: "Hina Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sampleImage {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*** footer ***/
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    margin: 10px;
+    color: #999;
+}
