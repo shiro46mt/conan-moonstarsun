@@ -101,6 +101,15 @@ function convert() {
 
 }
 
+document.getElementById("download").onclick = (event) => {
+    let canvas = document.getElementById("outputCanvas");
+
+    let link = document.createElement("a");
+    link.href = canvas.toDataURL("image/png");
+    link.download = "image.png";
+    link.click();
+}
+
 function loadRandomImage() {
     // 画像のURLを配列で定義
     var images = [
